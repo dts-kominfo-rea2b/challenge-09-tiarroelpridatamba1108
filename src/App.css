@@ -1,4 +1,50 @@
 .App {
-  text-align: center;
+  background-color: blanchedalmond;
+  margin: 10px;
+}
+
+.header {
   display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.point {
+  color: pink;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  display: flex;
+  width: 350px;
+  padding: 10px;
+  background-color: darksalmon;
+  border-radius: 20px;
+}
+
+img {
+  display: flex;
+  justify-content: start;
+  border-radius: 9999px;
+  margin-right: 25px;
+}
+
+.data-items {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
 }
